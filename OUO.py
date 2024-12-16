@@ -20,9 +20,7 @@ pg.display.set_caption(":)")
 #game variables
 stage = 0
 click_for_next = False
-black_stop = False
 last_click = 0
-cont = True;
 back_bird_made = False
 make_game_bird = 30
 book_found = False
