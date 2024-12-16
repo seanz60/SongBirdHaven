@@ -24,7 +24,7 @@ class Bread(pg.sprite.Sprite):
 				self.kill()
 
 	def move(self):
-		self.y -= 10
+		self.y -= self.speed
 
 	def draw(self, surface):
 		self.rect = self.image.get_rect()
